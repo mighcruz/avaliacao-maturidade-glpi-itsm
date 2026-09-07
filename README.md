@@ -69,7 +69,7 @@ A solução proposta foi a configuração do GLPI para operar como um Service De
 - **Matriz de Recomendações:** Lista de melhorias de configuração e processo para otimizar a adoção da ferramenta.
 
 <p align="center">
-  <img src="docs/GLPI.PNG" alt="Logo GLPI" width="200">
+  <img src="docs/GLPI.PNG" alt="Logo GLPI" width="600">
 </p>
 *[Espaço reservado para inserção de imagens do Catálogo de Serviços, dashboards do GLPI ou trechos do relatório de conformidade]*
 
