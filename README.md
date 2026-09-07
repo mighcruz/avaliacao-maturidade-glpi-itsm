@@ -1,14 +1,14 @@
 # Avaliação de Maturidade de Serviços de TI
 
+<p align="left">
+  <img src="docs/logo glpi para projeto.png" alt="Logo GLPI" width="200">
+</p>
+
 Avaliação técnica e operacional da plataforma GLPI (ITIL)
 
 > **Natureza:** Acadêmico / Simulação Corporativa -|- **Status:** ✔
 
 ---
-<p align="center">
-  <img src="assets/logo-glpi.png" alt="Logo GLPI" width="200">
-</p>
-
 ## Visão Geral
 
 Este projeto consistiu na avaliação técnica e operacional da ferramenta GLPI como solução de Service Desk. O trabalho focou na validação da conformidade da plataforma com boas práticas de governança de TI, incluindo a estruturação de um catálogo de serviços, definição de SLAs, configuração de perfis de acesso (RBAC) e análise crítica de sua aderência aos frameworks ITIL, COBIT e ISO/IEC 20000 em um cenário corporativo simulado.
