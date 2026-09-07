@@ -1,9 +1,8 @@
-# Avaliação de Maturidade de Serviços de TI
-
-<p align="left">
-  <img src="docs/logo glpi para projeto.png" alt="Logo GLPI" width="200">
+<p align="center">
+  <img src="docs/BANNER.PNG" alt="Logo GLPI" width="800">
 </p>
 
+# Avaliação de Maturidade de Serviços de TI
 ![GLPI](https://img.shields.io/badge/GLPI-004385?style=flat&logo=glpi&logoColor=white)
 
 Analise técnica e operacional da plataforma GLPI (ITIL)
@@ -92,7 +91,6 @@ A solução proposta foi a configuração do GLPI para operar como um Service De
 
 ---
 
-## 📂 Documentação, Evidências e Recursos
 ## Documentação, Evidências e Recursos
 
 - [Relatório Técnico de Avaliação de Service Desk - GLPI](docs/REPORT%20-%20AVALIAÇÃO%20DE%20SERVICE%20DESK%20-27.04.2025.pdf)
