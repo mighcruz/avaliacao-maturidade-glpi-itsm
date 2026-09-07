@@ -1,21 +1,15 @@
-# Avaliação de Maturidade de Serviços de TI — GLPI / ITIL
+# Avaliação de Maturidade de Serviços de TI
 
-> Avaliação técnica e operacional da plataforma GLPI, validando sua conformidade com frameworks de governança (ITIL/COBIT) e viabilidade como solução de Service Desk corporativo.
+Avaliação técnica e operacional da plataforma GLPI (ITIL)
 
-**Status:** Concluído  
-**Natureza:** Acadêmico / Laboratorial (Simulação Corporativa)
-
----
-
-## 🔒 Nota de Confidencialidade
-
-*Tratando-se de um projeto desenvolvido em ambiente de simulação corporativa e laboratório de testes, quaisquer topologias de rede, endereços IP, credenciais de acesso ou configurações específicas mencionadas na documentação original foram omitidas ou sanitizadas neste repositório, preservando as boas práticas de segurança da informação.*
+> **Natureza:** Acadêmico / Simulação Corporativa -|- **Status:** ✔
 
 ---
+
 
 ## Visão Geral
 
-Este projeto consistiu na avaliação técnica e operacional da ferramenta GLPI (Gestionnaire Libre de Parc Informatique) como solução de Service Desk. O trabalho focou na validação da conformidade da plataforma com boas práticas de governança de TI, incluindo a estruturação de um catálogo de serviços, definição de SLAs, configuração de perfis de acesso (RBAC) e análise crítica de sua aderência aos frameworks ITIL, COBIT e ISO/IEC 20000 em um cenário corporativo simulado.
+Este projeto consistiu na avaliação técnica e operacional da ferramenta GLPI como solução de Service Desk. O trabalho focou na validação da conformidade da plataforma com boas práticas de governança de TI, incluindo a estruturação de um catálogo de serviços, definição de SLAs, configuração de perfis de acesso (RBAC) e análise crítica de sua aderência aos frameworks ITIL, COBIT e ISO/IEC 20000 em um cenário corporativo simulado.
 
 ## Contexto e Problema
 
@@ -96,6 +90,11 @@ A solução proposta foi a configuração do GLPI para operar como um Service De
 - [Link para o Relatório Técnico de Avaliação de Service Desk (PDF Sanitizado)]
 - [Link para o Catálogo de Serviços de TI e Definição de SLAs]
 - [Link para a Matriz de Conformidade com ITIL/COBIT]
+
+---
+
+###### 🔒 Nota de Confidencialidade
+###### *Tratando-se de um projeto desenvolvido em ambiente de simulação corporativa e laboratório de testes, quaisquer topologias de rede, endereços IP, credenciais de acesso ou configurações específicas mencionadas na documentação original foram omitidas ou sanitizadas neste repositório, preservando as boas práticas de segurança da informação.*
 
 ---
 
