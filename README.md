@@ -5,7 +5,9 @@ Avaliação técnica e operacional da plataforma GLPI (ITIL)
 > **Natureza:** Acadêmico / Simulação Corporativa -|- **Status:** ✔
 
 ---
-
+<p align="center">
+  <img src="assets/logo-glpi.png" alt="Logo GLPI" width="200">
+</p>
 
 ## Visão Geral
 
