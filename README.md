@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/BANNER.PNG" alt="Logo GLPI" width="800">
+  <img src="docs/BANNER.PNG" alt="banner" width="800">
 </p>
 
 # Avaliação de Maturidade de Serviços de TI
