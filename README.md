@@ -2,21 +2,13 @@
   <img src="docs/BANNER1.PNG" alt="banner" width="1000">
 </p>
 
----
-
-Análise técnica e operacional da plataforma GLPI (ITIL
-
-![GLPI](https://img.shields.io/badge/GLPI-004385?style=flat&logo=glpi&logoColor=white)
-![ITIL v4](https://img.shields.io/badge/ITIL%20v4-005A9C?style=flat&logoColor=white)
-![COBIT 2019](https://img.shields.io/badge/COBIT%202019-003366?style=flat&logoColor=white)
-![ISO/IEC 20000](https://img.shields.io/badge/ISO%2FIEC%2020000-4A154B?style=flat&logoColor=white)
-
 **Natureza:** Acadêmico / Simulação Corporativa -|- **Status:** ✔
 
 ---
 ## Visão Geral
 
-Execução da avaliação técnica e operacional do GLPI como solução centralizada de Service Desk. O projeto validou a conformidade da plataforma com boas práticas de governança de TI por meio da estruturação de catálogo de serviços, definição de SLAs, parametrização de perfis de acesso (RBAC) e auditoria de aderência aos frameworks ITIL, COBIT e ISO/IEC 20000 em cenário de simulação corporativa.
+Execução da avaliação técnica e operacional do GLPI como solução centralizada de Service Desk. 
+O projeto validou a conformidade da plataforma com boas práticas de governança de TI por meio da estruturação de catálogo de serviços, definição de SLAs, parametrização de perfis de acesso (RBAC) e auditoria de aderência aos frameworks ITIL, COBIT e ISO/IEC 20000 em cenário de simulação corporativa.
 
 ## Contexto e Problema
 
@@ -48,6 +40,11 @@ O projeto foi conduzido em fases estruturadas:
 5. **Análise de Gaps e Recomendações:** Identificação de limitações da ferramenta e proposição de melhorias de processo e configuração.
 
 ## Frameworks e Boas Práticas
+
+![GLPI](https://img.shields.io/badge/GLPI-004385?style=flat&logo=glpi&logoColor=white)
+![ITIL v4](https://img.shields.io/badge/ITIL%20v4-005A9C?style=flat&logoColor=white)
+![COBIT 2019](https://img.shields.io/badge/COBIT%202019-003366?style=flat&logoColor=white)
+![ISO/IEC 20000](https://img.shields.io/badge/ISO%2FIEC%2020000-4A154B?style=flat&logoColor=white)
 
 - **ITIL v4:** Utilizado como base para a estruturação do Catálogo de Serviços, Gerenciamento de Incidentes, Gerenciamento de Requisições de Serviço e Gerenciamento de Ativos de TI.
 - **COBIT 2019 (Domínio DSS):** Aplicado para avaliar a capacidade da ferramenta em "Gerenciar Solicitações e Incidentes de Serviços" (DSS02) e "Gerenciar Problemas" (DSS03).
