@@ -1,29 +1,32 @@
 <p align="center">
-  <img src="docs/BANNER.PNG" alt="banner" width="800">
+  <img src="docs/BANNER1.PNG" alt="banner" width="1000">
 </p>
 
-# Avaliação de Maturidade de Serviços de TI
+---
+
+Análise técnica e operacional da plataforma GLPI (ITIL
+
 ![GLPI](https://img.shields.io/badge/GLPI-004385?style=flat&logo=glpi&logoColor=white)
+![ITIL v4](https://img.shields.io/badge/ITIL%20v4-005A9C?style=flat&logoColor=white)
+![COBIT 2019](https://img.shields.io/badge/COBIT%202019-003366?style=flat&logoColor=white)
+![ISO/IEC 20000](https://img.shields.io/badge/ISO%2FIEC%2020000-4A154B?style=flat&logoColor=white)
 
-Analise técnica e operacional da plataforma GLPI (ITIL)
-
-> **Natureza:** Acadêmico / Simulação Corporativa -|- **Status:** ✔
+**Natureza:** Acadêmico / Simulação Corporativa -|- **Status:** ✔
 
 ---
 ## Visão Geral
 
-Este projeto consistiu na avaliação técnica e operacional da ferramenta GLPI como solução de Service Desk. O trabalho focou na validação da conformidade da plataforma com boas práticas de governança de TI, incluindo a estruturação de um catálogo de serviços, definição de SLAs, configuração de perfis de acesso (RBAC) e análise crítica de sua aderência aos frameworks ITIL, COBIT e ISO/IEC 20000 em um cenário corporativo simulado.
+Execução da avaliação técnica e operacional do GLPI como solução centralizada de Service Desk. O projeto validou a conformidade da plataforma com boas práticas de governança de TI por meio da estruturação de catálogo de serviços, definição de SLAs, parametrização de perfis de acesso (RBAC) e auditoria de aderência aos frameworks ITIL, COBIT e ISO/IEC 20000 em cenário de simulação corporativa.
 
 ## Contexto e Problema
 
-Organizações que operam com canais de suporte informais (e-mail, telefone, mensagens) enfrentam falta de rastreabilidade, dificuldade na mensuração de desempenho e inconsistência no atendimento. Para evoluir a maturidade de TI, é necessário implementar uma ferramenta centralizada que não apenas registre chamados, mas que seja configurada e governada de acordo com processos padronizados de gestão de serviços.
+Eliminar a falta de rastreabilidade, a inconsistência operacional e a baixa mensuração de desempenho causadas pelo uso de canais de suporte informais (e-mail, telefone e mensagens). Centralizar o atendimento em ferramenta governada por processos padronizados de gestão de serviços.
 
 ## Objetivos
 
-- Avaliar a funcionalidade e a usabilidade do GLPI sob diferentes perspectivas de usuário (Solicitante, Técnico e Administrador).
-- Mapear e estruturar um catálogo de serviços de TI com SLAs, janelas de atendimento e fluxos de aprovação.
-- Identificar gaps de governança de TI na configuração padrão da ferramenta.
-- Validar a aderência do GLPI às práticas de ITIL (Incidentes, Requisições, Ativos), COBIT (DS8) e ISO/IEC 20000.
+- Avaliar funcionalidade e usabilidade do GLPI nos perfis de Solicitante, Técnico e Administrador.
+- Estruturar catálogo de serviços de TI com SLAs, janelas de atendimento e fluxos de aprovação.
+- Identificar lacunas de governança na configuração padrão da ferramenta.
 
 ## Escopo
 
@@ -82,12 +85,6 @@ A solução proposta foi a configuração do GLPI para operar como um Service De
 
 - **Aprendizado:** Ferramentas open-source de ITSM são altamente flexíveis, mas essa flexibilidade exige um esforço inicial significativo de modelagem de processos. A tecnologia sozinha não resolve gaps de governança; ela apenas os automatiza.
 - **Limitação:** O GLPI, em sua configuração padrão, possui limitações nativas para processos complexos de Gerenciamento de Projetos e Gerenciamento de Relacionamento com o Cliente (CRM), exigindo plugins de terceiros ou adaptações de processo para cobrir essas lacunas.
-
-## Próximos Passos e Evoluções Futuras
-
-- Integração do GLPI com ferramentas de monitoramento de infraestrutura (ex: Zabbix, PRTG) para abertura automática de chamados baseada em eventos.
-- Implementação e alimentação contínua de uma Base de Conhecimento (Knowledge Base) para permitir o autoatendimento e a resolução de incidentes no primeiro contato (FCR).
-- Automação de fluxos de aprovação via e-mail para reduzir o tempo de resposta em solicitações de acesso.
 
 ---
 
