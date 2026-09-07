@@ -2,7 +2,7 @@
   <img src="docs/BANNER1.PNG" alt="banner" width="1000">
 </p>
 
-**Natureza:** Acadêmico / Simulação Corporativa -|- **Status:** ✔
+**Natureza:** Acadêmico / Simulação Corporativa  ✔
 
 ---
 ## Visão Geral
@@ -22,22 +22,24 @@ Eliminar a falta de rastreabilidade, a inconsistência operacional e a baixa men
 
 ## Escopo
 
-**Inclusões:** Configuração do ambiente de teste, definição de catálogo de serviços (Hardware, Software, Rede, Acessos, etc.), testes de usabilidade por perfil, auditoria de funcionalidades e elaboração de relatório de conformidade.  
-**Exclusões:** Integração com sistemas externos de ERP, RH ou ferramentas de monitoramento de infraestrutura em tempo real.  
-**Limites:** Cenário de simulação corporativa em ambiente de laboratório, sem impacto em operações de produção.
+- **Inclusões**: Configuração de ambiente de laboratório, definição de catálogo de serviços (Hardware, Software, Rede, Acessos), testes de usabilidade por perfil, auditoria de funcionalidades e elaboração de relatório de conformidade.
+- **Exclusões**: Integração com sistemas externos de ERP, RH ou ferramentas de monitoramento em tempo real.
+- **Limites**: Cenário de simulação corporativa em ambiente de laboratório, sem impacto em operações de produção.
 
-## Papel e Responsabilidades
+## Atuação e Responsabilidades
 
-Atuação na configuração do ambiente de testes, elaboração do catálogo de serviços com definição de SLAs, execução dos testes de usabilidade nos perfis de Usuário, Técnico e Administrador, e redação do relatório técnico comparativo entre as funcionalidades do GLPI e os requisitos dos frameworks de governança.
+- Configurar o ambiente de testes e o provisionamento de infraestrutura.
+- Desenhar o catálogo de serviços e parametrizar SLAs.
+- Executar testes de usabilidade nos perfis de Usuário, Técnico e Administrador.
+- Redigir o relatório técnico comparativo entre funcionalidades do GLPI e requisitos de governança.
 
 ## Metodologia e Abordagem
 
-O projeto foi conduzido em fases estruturadas:
-1. **Configuração do Ambiente:** Provisionamento do GLPI em ambiente de laboratório e acesso controlado via VPN.
-2. **Estruturação do Serviço:** Definição de categorias de chamados, campos obrigatórios e regras de negócio (SLAs e janelas de atendimento).
-3. **Testes de Usabilidade (RBAC):** Execução de fluxos de ponta a ponta simulando as ações de um Usuário (abertura de chamado), Técnico (atendimento e histórico) e Administrador (configuração e relatórios).
-4. **Auditoria de Conformidade:** Análise cruzada das funcionalidades do GLPI com as práticas de ITIL v4, COBIT 2019 (Domínio DSS) e ISO/IEC 20000.
-5. **Análise de Gaps e Recomendações:** Identificação de limitações da ferramenta e proposição de melhorias de processo e configuração.
+1. Configuração do Ambiente: Provisionar o GLPI em laboratório isolado com acesso via VPN controlada.
+2. Estruturação do Serviço: Definir categorias de chamados, campos obrigatórios, SLAs e janelas de atendimento.
+3. Testes de Usabilidade (RBAC): Executar fluxos ponta a ponta para Usuário, Técnico e Administrador.
+4. Auditoria de Conformidade: Cruzar funcionalidades do GLPI com ITIL v4, COBIT 2019 e ISO/IEC 20000.
+5. Análise de Gaps e Recomendações: Mapear limitações da ferramenta e propor melhorias de processo e configuração.
 
 ## Frameworks e Boas Práticas
 
@@ -46,42 +48,43 @@ O projeto foi conduzido em fases estruturadas:
 ![COBIT 2019](https://img.shields.io/badge/COBIT%202019-003366?style=flat&logoColor=white)
 ![ISO/IEC 20000](https://img.shields.io/badge/ISO%2FIEC%2020000-4A154B?style=flat&logoColor=white)
 
-- **ITIL v4:** Utilizado como base para a estruturação do Catálogo de Serviços, Gerenciamento de Incidentes, Gerenciamento de Requisições de Serviço e Gerenciamento de Ativos de TI.
-- **COBIT 2019 (Domínio DSS):** Aplicado para avaliar a capacidade da ferramenta em "Gerenciar Solicitações e Incidentes de Serviços" (DSS02) e "Gerenciar Problemas" (DSS03).
-- **ISO/IEC 20000:** Utilizado como referência para a definição e parametrização de Acordos de Nível de Serviço (SLA) e Gestão de Níveis de Serviço.
+- ITIL v4: Direcionar a estruturação do Catálogo de Serviços, Gerenciamento de Incidentes, Requisições e Ativos de TI.
+- COBIT 2019 (Domínio DSS): Avaliar a capacidade de gerenciar solicitações, incidentes e problemas.
+- ISO/IEC 20000: Fundamentar a parametrização de Acordos de Nível de Serviço (SLA) e gestão de níveis de serviço.
 
 ## Tecnologias e Ferramentas
 
-- **Plataforma de Service Desk:** GLPI (Open Source).
-- **Acesso e Rede:** ZeroTier (VPN para acesso controlado ao ambiente de laboratório).
-- **Documentação e Modelagem:** Ferramentas de edição de texto e planilhas para estruturação do catálogo e SLAs.
+- Plataforma de Service Desk: GLPI (Open Source).
+- Acesso e Rede: ZeroTier (VPN para laboratório).
+- Documentação e Modelagem: Editores de texto e planilhas eletrônicas.
 
-## Solução e Arquitetura
 
-A solução proposta foi a configuração do GLPI para operar como um Service Desk estruturado. A arquitetura lógica da ferramenta foi organizada em um Catálogo de Serviços dividido em 8 categorias principais (Hardware, Software, Rede, Acessos e Segurança, E-mail, Telefonia, Sistemas Corporativos e Outros). Para cada item, foram definidos: solicitante permitido, necessidade de aprovação, informações obrigatórias, SLA em horas e janela de atendimento, garantindo a rastreabilidade e a padronização do fluxo de trabalho.
+# Solução e Arquitetura
+
+Implementação do GLPI como Service Desk estruturado com catálogo dividido em oito categorias principais (Hardware, Software, Rede, Acessos e Segurança, E-mail, Telefonia, Sistemas Corporativos e Outros). Parametrização de solicitantes, fluxos de aprovação, obrigatoriedade de campos, SLAs e janelas de atendimento para garantir rastreabilidade e padronização.
 
 ## Evidências e Entregáveis
 
-- **Catálogo de Serviços de TI:** Documento detalhado com 20+ itens de serviço, incluindo descrições, SLAs, janelas de atendimento e requisitos de aprovação.
-- **Relatório Técnico de Avaliação:** Documento comparativo detalhando o alinhamento (Alinhado, Parcial ou Não Alinhado) do GLPI com práticas específicas de ITIL, COBIT e ISO 20000.
-- **Resultados dos Testes de Usabilidade:** Análise crítica da experiência do usuário, destacando pontos fortes (ex: histórico de ações para técnicos) e pontos de atenção (ex: campos não obrigatórios que podem gerar chamados incompletos).
-- **Matriz de Recomendações:** Lista de melhorias de configuração e processo para otimizar a adoção da ferramenta.
+- Catálogo de Serviços de TI: Documento com mais de vinte itens parametrizados com descrições, SLAs e regras de aprovação.
+- Relatório Técnico de Avaliação: Análise comparativa de alinhamento entre GLPI, ITIL, COBIT e ISO 20000.
+- Resultados de Testes de Usabilidade: Avaliação crítica da experiência de navegação e pontos de atenção em campos de abertura de chamados.
+- Matriz de Recomendações: Plano de melhorias de configuração e processos.
 
 <p align="center">
   <img src="docs/GLPI.PNG" alt="Logo GLPI" width="600">
 </p>
-*[Espaço reservado para inserção de imagens do Catálogo de Serviços, dashboards do GLPI ou trechos do relatório de conformidade]*
+
 
 ## Resultados e Validação
 
-- Validação do GLPI como uma solução robusta, escalável e de baixo custo para a gestão de serviços de TI em PMEs.
-- Confirmação de que a ferramenta atende bem aos processos de Gerenciamento de Incidentes, Requisições e Ativos de TI, mas requer customização manual para processos mais complexos (como Gerenciamento de Mudanças avançado ou Projetos).
-- Identificação de que o sucesso da ferramenta depende criticamente de um planejamento inicial rigoroso (definição de categorias e SLAs) e de treinamento dos usuários para evitar a abertura de chamados vazios ou mal categorizados.
+- Validar o GLPI como solução robusta, escalável e de baixo custo para ITSM em pequenas e médias empresas.
+- Comprovar a eficiência da ferramenta em Incidentes, Requisições e Ativos, identificando a necessidade de customização para Gestão de Mudanças complexas ou Projetos.
+- Demonstrar que o sucesso da implementação depende de planejamento inicial rigoroso e treinamento contínuo de usuários.
 
 ## Aprendizados e Limitações
 
-- **Aprendizado:** Ferramentas open-source de ITSM são altamente flexíveis, mas essa flexibilidade exige um esforço inicial significativo de modelagem de processos. A tecnologia sozinha não resolve gaps de governança; ela apenas os automatiza.
-- **Limitação:** O GLPI, em sua configuração padrão, possui limitações nativas para processos complexos de Gerenciamento de Projetos e Gerenciamento de Relacionamento com o Cliente (CRM), exigindo plugins de terceiros ou adaptações de processo para cobrir essas lacunas.
+- Aprendizado: Ferramentas open-source exigem esforço inicial intenso de modelagem de processos; a tecnologia automatiza, mas não substitui a governança.
+- Limitação: A configuração padrão do GLPI apresenta restrições para projetos complexos e CRM, demandando plugins externos ou adaptações processuais.
 
 ---
 
@@ -92,11 +95,6 @@ A solução proposta foi a configuração do GLPI para operar como um Service De
 ](docs/COMPARA%C3%87%C3%83O%20COM%20AS%20MELHORES%20PR%C3%81TICAS%20DO%20COBIT%20-%20ITIL%20-%20ISO%2020000.pdf)
 - [Catálogo de Serviços de TI - GLPI](docs/CATALOGO%20DE%20SERVIÇOS%20DE%20TI%20-%20GLPI%2021.04.2025.pdf)
 - [Catálogo ITIL e Mapeamento de SLAs](docs/Catalogo%20ITIL%2002.pdf)
-
-
-
-## Documentação, Evidências e Recursos
-
 
 ---
 
