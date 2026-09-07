@@ -4,7 +4,9 @@
   <img src="docs/logo glpi para projeto.png" alt="Logo GLPI" width="200">
 </p>
 
-Avaliação técnica e operacional da plataforma GLPI (ITIL)
+![GLPI](https://img.shields.io/badge/GLPI-004385?style=flat&logo=glpi&logoColor=white)
+
+Analise técnica e operacional da plataforma GLPI (ITIL)
 
 > **Natureza:** Acadêmico / Simulação Corporativa -|- **Status:** ✔
 
