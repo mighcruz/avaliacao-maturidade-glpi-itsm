@@ -92,9 +92,17 @@ A solução proposta foi a configuração do GLPI para operar como um Service De
 ## 📂 Documentação, Evidências e Recursos
 ## Documentação, Evidências e Recursos
 
-- [Relatório Técnico de Avaliação de Service Desk](docs/REPORT%20-%20AVALIAÇÃO%20DE%20SERVICE%20DESK%20-27.04.2025.pdf)
+- [Relatório Técnico de Avaliação de Service Desk - GLPI](docs/REPORT%20-%20AVALIAÇÃO%20DE%20SERVICE%20DESK%20-27.04.2025.pdf)
+- [Relatório Alinhamento GLPI Vs MELHORES PRÁTICAS DO COBIT E ITIL/ISO 20000
+](docs/COMPARA%C3%87%C3%83O%20COM%20AS%20MELHORES%20PR%C3%81TICAS%20DO%20COBIT%20-%20ITIL%20-%20ISO%2020000.pdf)
 - [Catálogo de Serviços de TI - GLPI](docs/CATALOGO%20DE%20SERVIÇOS%20DE%20TI%20-%20GLPI%2021.04.2025.pdf)
 - [Catálogo ITIL e Mapeamento de SLAs](docs/Catalogo%20ITIL%2002.pdf)
+
+
+
+## Documentação, Evidências e Recursos
+
+
 ---
 
 ###### 🔒 Nota de Confidencialidade
