@@ -68,6 +68,9 @@ A solução proposta foi a configuração do GLPI para operar como um Service De
 - **Resultados dos Testes de Usabilidade:** Análise crítica da experiência do usuário, destacando pontos fortes (ex: histórico de ações para técnicos) e pontos de atenção (ex: campos não obrigatórios que podem gerar chamados incompletos).
 - **Matriz de Recomendações:** Lista de melhorias de configuração e processo para otimizar a adoção da ferramenta.
 
+<p align="center">
+  <img src="docs/GLPI.PNG" alt="Logo GLPI" width="200">
+</p>
 *[Espaço reservado para inserção de imagens do Catálogo de Serviços, dashboards do GLPI ou trechos do relatório de conformidade]*
 
 ## Resultados e Validação
