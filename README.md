@@ -140,9 +140,7 @@ O GLPI foi utilizado como plataforma centralizada de Service Desk / ITSM, com um
 - Sistemas Corporativos
 - Outros
 
-<p align="center">
-  <img src="docs/GLPI.PNG" alt="Interface do GLPI" width="600">
-</p>
+
 
 <p align="center">
   <img src="docs/tela.png" alt="Interface do GLPI" width="600">
@@ -169,12 +167,12 @@ O catálogo foi estruturado em oito categorias de atendimento, contemplando os p
        width="550">
 </p>
 
-
-### Fluxo Operacional de Atendimento
-
+### Mecanismos de acompanhamento e rastreabilidade.
 <p align="center">
-  <img src="docs/fluxo.png" alt="Banner do projeto" width="200">
+  <img src="docs/GLPI.PNG" alt="Interface do GLPI" width="600">
 </p>
+
+
 
 ---
 
@@ -192,6 +190,12 @@ Entre os principais resultados observados:
 - Identificação de gaps relacionados à configuração, processos e governança;
 - Comparação do cenário avaliado com **ITIL v4, COBIT 2019 e ISO/IEC 20000**.
 
+
+### Fluxo Operacional de Atendimento (Antes x Depois)
+
+<p align="center">
+  <img src="docs/fluxo4.png" alt="Banner do projeto" width="200">
+</p>
 ---
 
 ## Documentação, Evidências e Recursos
