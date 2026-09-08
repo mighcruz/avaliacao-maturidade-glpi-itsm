@@ -183,7 +183,7 @@ A configuração contemplou:
 ### Fluxo Conceitual
 
 <p align="center">
-  <img src="docs/fluxo.png" alt="Banner do projeto" width="1000">
+  <img src="docs/fluxo.png" alt="Banner do projeto" width="200">
 </p>
 
 ---
