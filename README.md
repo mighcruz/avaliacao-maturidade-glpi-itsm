@@ -135,10 +135,9 @@ O GLPI foi utilizado como plataforma centralizada de Service Desk / ITSM, com um
 - Outros
 
 <p align="center">
-  <img src="docs/glpi-dashboard.png"
-       alt="Painel principal do GLPI utilizado no ambiente de avaliação"
-       width="850">
+  <img src="docs/GLPI.PNG" alt="Interface do GLPI" width="600">
 </p>
+
 
 
 A configuração contemplou:
@@ -157,12 +156,10 @@ A configuração contemplou:
 O catálogo foi estruturado em oito categorias de atendimento, contemplando os principais tipos de demanda considerados no cenário de simulação.
 
 <p align="center">
-  <img src="docs/catalogo-servicos.png"
+  <img src="docs/catalogo.png"
        alt="Catálogo de Serviços configurado no GLPI"
        width="850">
 </p>
-
-
 
 
 ### Fluxo Operacional de Atendimento
