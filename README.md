@@ -25,9 +25,12 @@ A avaliação também realizou uma análise comparativa das funcionalidades obse
 | Perfis de acesso avaliados | **3** |
 | Frameworks / referenciais analisados | **3** |
 
+
 ## Contexto e Problema
 
-O cenário analisado apresentava falta de rastreabilidade, inconsistência operacional e baixa capacidade de mensuração de desempenho decorrentes do uso de canais de suporte informais, como e-mail, telefone e mensagens.
+Para fins deste projeto, foi desenvolvido um cenário de simulação corporativa baseado em uma empresa de serviços gerenciados de TI (MSP) de porte médio, especializada em suporte técnico corporativo, Service Desk, gestão de ativos e infraestrutura de rede, com processos orientados por referências como ITIL e COBIT.
+
+O cenário analisado (AS-IS) apresentava baixa rastreabilidade, inconsistência operacional e dificuldade na mensuração de desempenho, decorrentes do uso descentralizado de canais de suporte, como e-mail, telefone e mensagens.
 
 Esse modelo dificultava:
 - A padronização dos atendimentos;
@@ -36,7 +39,7 @@ Esse modelo dificultava:
 - A rastreabilidade das solicitações;
 - A consolidação de informações para análise de desempenho.
 
-Diante desse cenário, o projeto avaliou a utilização do GLPI como plataforma centralizada para estruturar e organizar o processo de atendimento de TI.
+Diante desse contexto, o projeto avaliou o GLPI como plataforma centralizada de Service Desk / ITSM, buscando estruturar, padronizar e organizar o processo de atendimento de TI.
 
 ## Objetivos
 
@@ -73,18 +76,21 @@ A avaliação foi conduzida em ambiente de laboratório e simulação corporativ
 
 Os resultados representam o comportamento observado no cenário configurado e não constituem uma validação de implantação produtiva, auditoria formal ou certificação de conformidade.
 
-## Atuação e Responsabilidades
+## Atuação no Projeto
 
-As principais atividades realizadas no projeto compreenderam:
-- Configuração do ambiente de testes e provisionamento da infraestrutura.
-- Estruturação do Catálogo de Serviços de TI.
-- Parametrização de SLAs, horários e regras de atendimento.
-- Configuração e avaliação dos perfis de acesso.
-- Execução de testes funcionais e de usabilidade.
-- Avaliação dos fluxos de abertura, tratamento, acompanhamento e encerramento de chamados.
-- Análise comparativa das funcionalidades da plataforma com referências de ITSM e governança.
-- Identificação de gaps e oportunidades de melhoria.
-- Produção da documentação técnica e dos artefatos de avaliação.
+As principais atividades realizadas compreenderam:
+
+- Provisionamento e configuração do ambiente GLPI;
+- Estruturação do Catálogo de Serviços;
+- Parametrização de SLAs, horários e regras de atendimento;
+- Configuração e avaliação de perfis e permissões (RBAC);
+- Definição e teste de fluxos de aprovação;
+- Execução de testes funcionais e de usabilidade;
+- Análise dos fluxos de atendimento e rastreabilidade;
+- Avaliação comparativa com ITIL v4, COBIT 2019 e ISO/IEC 20000;
+- Identificação de gaps e oportunidades de melhoria;
+- Produção da documentação técnica e evidências do projeto.
+
 
 ## Metodologia e Abordagem
 
@@ -138,7 +144,9 @@ O GLPI foi utilizado como plataforma centralizada de Service Desk / ITSM, com um
   <img src="docs/GLPI.PNG" alt="Interface do GLPI" width="600">
 </p>
 
-
+<p align="center">
+  <img src="docs/tela.png" alt="Interface do GLPI" width="600">
+</p>
 
 A configuração contemplou:
 - Catálogo de Serviços;
@@ -156,9 +164,9 @@ A configuração contemplou:
 O catálogo foi estruturado em oito categorias de atendimento, contemplando os principais tipos de demanda considerados no cenário de simulação.
 
 <p align="center">
-  <img src="docs/catalogo.png"
+  <img src="docs/Catalogo.png"
        alt="Catálogo de Serviços configurado no GLPI"
-       width="850">
+       width="550">
 </p>
 
 
@@ -167,6 +175,22 @@ O catálogo foi estruturado em oito categorias de atendimento, contemplando os p
 <p align="center">
   <img src="docs/fluxo.png" alt="Banner do projeto" width="200">
 </p>
+
+---
+
+## Principais Resultados
+
+A avaliação demonstrou a viabilidade do GLPI como plataforma centralizada para o cenário proposto, permitindo estruturar o atendimento por meio de catálogo de serviços, SLAs, perfis de acesso, fluxos de aprovação e mecanismos de rastreabilidade.
+
+Entre os principais resultados observados:
+
+- Estruturação de **8 categorias e 20+ serviços**;
+- Avaliação de **3 perfis de acesso**;
+- Parametrização e associação de **SLAs aos serviços**;
+- Implementação e teste de **fluxos de aprovação**;
+- Centralização do registro e acompanhamento dos chamados;
+- Identificação de gaps relacionados à configuração, processos e governança;
+- Comparação do cenário avaliado com **ITIL v4, COBIT 2019 e ISO/IEC 20000**.
 
 ---
 
