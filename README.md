@@ -28,7 +28,7 @@ A avaliação também realizou uma análise comparativa das funcionalidades obse
 
 ## Contexto e Problema
 
-Para fins deste projeto, foi desenvolvido um cenário de simulação corporativa baseado em uma empresa de serviços gerenciados de TI (MSP) de porte médio, especializada em suporte técnico corporativo, Service Desk, gestão de ativos e infraestrutura de rede, com processos orientados por referências como ITIL e COBIT.
+Cenário baseado em uma empresa de serviços gerenciados de TI (MSP) de porte médio, especializada em suporte técnico corporativo, Service Desk, gestão de ativos e infraestrutura de rede, com processos orientados por referências como ITIL e COBIT.
 
 O cenário analisado (AS-IS) apresentava baixa rastreabilidade, inconsistência operacional e dificuldade na mensuração de desempenho, decorrentes do uso descentralizado de canais de suporte, como e-mail, telefone e mensagens.
 
@@ -39,7 +39,7 @@ Esse modelo dificultava:
 - A rastreabilidade das solicitações;
 - A consolidação de informações para análise de desempenho.
 
-Diante desse contexto, o projeto avaliou o GLPI como plataforma centralizada de Service Desk / ITSM, buscando estruturar, padronizar e organizar o processo de atendimento de TI.
+O projeto avaliou o GLPI como plataforma centralizada de Service Desk / ITSM, buscando estruturar, padronizar e organizar o processo de atendimento de TI.
 
 ## Objetivos
 
@@ -172,8 +172,6 @@ O catálogo foi estruturado em oito categorias de atendimento, contemplando os p
   <img src="docs/GLPI.PNG" alt="Interface do GLPI" width="600">
 </p>
 
-
-
 ---
 
 ## Principais Resultados
@@ -194,8 +192,9 @@ Entre os principais resultados observados:
 ### Fluxo Operacional de Atendimento (Antes x Depois)
 
 <p align="center">
-  <img src="docs/fluxo4.png" alt="Banner do projeto" width="200">
+  <img src="docs/fluxo4.png" alt="Banner do projeto" width="600">
 </p>
+
 ---
 
 ## Documentação, Evidências e Recursos
