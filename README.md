@@ -25,23 +25,33 @@ A avaliação também realizou uma análise comparativa das funcionalidades obse
 | Perfis de acesso avaliados | **3** |
 | Frameworks / referenciais analisados | **3** |
 
-
 ## Contexto e Problema
 
 Cenário baseado em uma empresa de serviços gerenciados de TI (MSP) de porte médio, especializada em suporte técnico corporativo, Service Desk, gestão de ativos e infraestrutura de rede, com processos orientados por referências como ITIL e COBIT.
 
-O cenário analisado (AS-IS) apresentava baixa rastreabilidade, inconsistência operacional e dificuldade na mensuração de desempenho, decorrentes do uso descentralizado de canais de suporte, como e-mail, telefone e mensagens.
+> O cenário analisado (AS-IS) apresentava baixa rastreabilidade, inconsistência operacional e dificuldade na mensuração de desempenho, decorrentes do uso descentralizado de canais de suporte, como e-mail, telefone e mensagens.
 
-Esse modelo dificultava:
-- A padronização dos atendimentos;
-- O acompanhamento de níveis de serviço;
-- A definição de responsabilidades;
-- A rastreabilidade das solicitações;
-- A consolidação de informações para análise de desempenho.
+<table>
+  <tr>
+    <td width="40%" align="center" valign="top">
+      <img src="docs/fluxo.png" alt="Fluxo operacional" width="300">
+    </td>
+    <td width="60%" valign="top">
+      ⚠ ESSE MODELO DIFICULTAVA:
+      <ul>
+        <br>
+        <li>A Padronização dos atendimentos;</li>
+        <li>O Acompanhamento de níveis de serviço;</li>
+        <li>A Definição de responsabilidades;</li>
+        <li>A Rastreabilidade das solicitações;</li>
+        <li>A Consolidação de informações para análise de desempenho.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-O projeto avaliou o GLPI como plataforma centralizada de Service Desk / ITSM, buscando estruturar, padronizar e organizar o processo de atendimento de TI.
 
-## Objetivos
+## Objetivos de Melhorias
 
 - Avaliar a funcionalidade e usabilidade do GLPI nos perfis de Solicitante, Técnico e Administrador.
 - Estruturar um Catálogo de Serviços de TI com categorias, SLAs, janelas de atendimento e fluxos de aprovação.
