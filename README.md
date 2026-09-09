@@ -190,11 +190,6 @@ O GLPI foi utilizado como plataforma centralizada de Service Desk / ITSM, na emp
    </tr>
 </table>
 
-
-
-
-
-
 ---
 
 ## Principais Resultados
@@ -211,8 +206,9 @@ Entre os principais resultados observados:
 - Identificação de gaps relacionados à configuração, processos e governança;
 - Comparação do cenário avaliado com **ITIL v4, COBIT 2019 e ISO/IEC 20000**.
 
+---
 
-### Fluxo Operacional de Atendimento (Antes x Depois)
+## Fluxo Operacional de Atendimento (Antes x Depois)
 
 <p align="center">
   <img src="docs/fluxo4.png" alt="Banner do projeto" width="600">
