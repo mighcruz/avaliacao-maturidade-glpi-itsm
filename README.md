@@ -185,7 +185,7 @@ O GLPI foi utilizado como plataforma centralizada de Service Desk / ITSM, na emp
        <ul>
         Catalógo de Serviços (ITIL):
             </ul>
-                 <img src="docs/Catalogo.png" alt="Catálogo de Serviços configurado no GLPI" width="1050">
+                 <img src="docs/Catalogo.png" alt="Catálogo de Serviços configurado no GLPI" width="700">
           </td>
    </tr>
 </table>
