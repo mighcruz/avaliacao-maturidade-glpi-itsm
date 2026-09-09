@@ -51,7 +51,7 @@ Cenário baseado em uma empresa de serviços gerenciados de TI (MSP) de porte m�
 </table>
 
 
-## Objetivos de Melhorias
+## Objetivos Propostos 
 
 - Avaliar a funcionalidade e usabilidade do GLPI nos perfis de Solicitante, Técnico e Administrador.
 - Estruturar um Catálogo de Serviços de TI com categorias, SLAs, janelas de atendimento e fluxos de aprovação.
@@ -76,15 +76,7 @@ Cenário baseado em uma empresa de serviços gerenciados de TI (MSP) de porte m�
 
 ### Excluído
 - Integrações com sistemas externos de ERP ou RH.
-- Integração com ferramentas de monitoramento em tempo real.
 - Implantação em ambiente produtivo.
-- Automação de processos corporativos fora do escopo do Service Desk.
-
-## Limitações da Avaliação
-
-A avaliação foi conduzida em ambiente de laboratório e simulação corporativa, sem impacto sobre operações reais de produção.
-
-Os resultados representam o comportamento observado no cenário configurado e não constituem uma validação de implantação produtiva, auditoria formal ou certificação de conformidade.
 
 ## Atuação no Projeto
 
@@ -140,47 +132,68 @@ A avaliação foi estruturada em cinco etapas.
 
 ## Solução Implementada
 
-O GLPI foi utilizado como plataforma centralizada de Service Desk / ITSM, com um catálogo estruturado em oito categorias principais:
-- Hardware
-- Software
-- Rede
-- Acessos e Segurança
-- E-mail
-- Telefonia
-- Sistemas Corporativos
-- Outros
+O GLPI foi utilizado como plataforma centralizada de Service Desk / ITSM, na empresa de serviços gerenciados de TI (MSP)
+### A configuração contemplou:
+<table>
+  <tr>
+    <td width="45%" valign="top">
+      <ul>
+        Configurações:
+          </ul>
+       <ul>
+        <li>Catálogo de Serviços;</li>
+        <li>Perfis de acesso;</li>
+        <li>Controle de acesso baseado em funções (RBAC);</li>
+        <li>Regras de aprovação;</li>
+        <li>Campos obrigatórios;</li>
+        <li>SLAs;</li>
+        <li>Janelas de atendimento;</li>
+        <li>Fluxos de abertura e tratamento de chamados;</li>
+        <li>Mecanismos de acompanhamento e rastreabilidade.</li>
+      </ul>
+    </td>
+        <td width="55%" align="center" valign="center">
+           <ul>
+          DashBoard Principal
+           </ul>           
+      <img src="docs/tela.png" alt="Interface do GLPI" width="600">
+    </td>
+  </tr>
+</table>
+
+
+### Catálogo estruturado em oito categorias principais
+
+<table>
+  <tr>
+    <td width="30%" valign="top">
+      <ul>
+     Categorias Principais:
+      </ul>
+          <ul>
+        <li>Hardware</li>
+        <li>Software</li>
+        <li>Rede</li>
+        <li>Acessos e Segurança</li>
+        <li>E-mail</li>
+        <li>Telefonia</li>
+        <li>Sistemas Corporativos</li>
+        <li>Outros</li>
+      </ul>
+    </td>
+    <td width="70%" align="center" valign="top">
+       <ul>
+        Catalógo de Serviços (ITIL):
+            </ul>
+                 <img src="docs/Catalogo.png" alt="Catálogo de Serviços configurado no GLPI" width="1050">
+          </td>
+   </tr>
+</table>
 
 
 
-<p align="center">
-  <img src="docs/tela.png" alt="Interface do GLPI" width="600">
-</p>
 
-A configuração contemplou:
-- Catálogo de Serviços;
-- Perfis de acesso;
-- Controle de acesso baseado em funções (RBAC);
-- Regras de aprovação;
-- Campos obrigatórios;
-- SLAs;
-- Janelas de atendimento;
-- Fluxos de abertura e tratamento de chamados;
-- Mecanismos de acompanhamento e rastreabilidade.
 
-### Catálogo de Serviços
-
-O catálogo foi estruturado em oito categorias de atendimento, contemplando os principais tipos de demanda considerados no cenário de simulação.
-
-<p align="center">
-  <img src="docs/Catalogo.png"
-       alt="Catálogo de Serviços configurado no GLPI"
-       width="550">
-</p>
-
-### Mecanismos de acompanhamento e rastreabilidade.
-<p align="center">
-  <img src="docs/GLPI.PNG" alt="Interface do GLPI" width="600">
-</p>
 
 ---
 
