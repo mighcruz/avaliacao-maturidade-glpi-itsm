@@ -1,4 +1,4 @@
-# GLPI — Service Desk / ITSM
+## GLPI — Service Desk / ITSM
 
 <p align="center">
   <img src="docs/BANNER1.PNG" alt="Banner do projeto de avaliação do GLPI" width="1000">
